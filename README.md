@@ -10,7 +10,7 @@ python3 down_crop.py <youtube-link> <start_time in mm:ss format> <length in seco
 - brew install youtube-dl
 - brew install ffmpeg
 
-* python packages:
+python packages:
 - sys
 - subprocess
 - uuid
