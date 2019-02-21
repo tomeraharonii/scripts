@@ -99,7 +99,7 @@ def main():
     # [video_title, video_link, start_time, segment_length, wav_file_name, original_file_name, boring/charismatic, from_playlist]
 
     row = [strip_file_name, link, start_t, segment_length,
-           strip_file_name + ".wav", boring_charismatic, playlist]
+           unique_file + ".wav", boring_charismatic, playlist]
     with open('output.csv', mode='a') as outpuf_file:
         csv_write = csv.writer(
             outpuf_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
