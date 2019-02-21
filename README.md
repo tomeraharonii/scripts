@@ -4,7 +4,9 @@ Download videos from YouTube, convert them to .WAV and crop them to short segmen
 
 # Usage:
 * Run as following:
-python3 down_crop.py <youtube-link> <start_time in mm:ss format> <length in seconds ss formart> <y/n - remove_originals> <y/n download_from_playlist>
+- make sure you set your path for the input.csv file. Another path will automatically be generated for the output.csv file
+python3 down_crop.py 
+
 
 # Dependecies:
 - brew install youtube-dl
